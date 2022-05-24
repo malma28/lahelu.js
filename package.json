@@ -1,0 +1,26 @@
+{
+  "name": "lahelu.js",
+  "version": "1.0.0",
+  "description": "nodejs library to interact with lahelu api",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --require ts-node/register ./src/**/*.test.ts"
+  },
+  "author": "Malma",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.6.4",
+    "undici": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^17.0.35",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.8.0"
+  }
+}
